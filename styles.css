@@ -1,0 +1,190 @@
+html, body {   
+    margin: 0 auto;
+    background-color: black;
+    font-size: 16px;
+}
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 2px solid seashell;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: seashell;
+    opacity: 0.93;
+}
+
+header h1 {
+    margin: 0 30px;
+    font-family: 'Palette Mosaic', cursive;
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-right: 40px;
+}
+nav a {
+    color: seashell;
+    opacity: 0.9;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: purple;
+    transition-duration: 1s;
+}
+/*Introduction*/
+
+.banner {    
+    background-image: url(/images/freestocks-Fx5rrxSaUtI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+    opacity: 0.9;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: seashell;
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 5.5rem;
+    font-weight: lighter;
+}
+
+.statement {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.statement h2 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    color: seashell;
+    
+}
+.statement p {
+    width: 50%;
+    text-align: justify;
+    line-height: 2.5;
+    font-family: 'Montserrat', sans-serif;
+    color: seashell;
+}
+
+/*Members*/
+#members {
+    background-color: seashell;
+    margin: 32px auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.header-member {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.image-container img {
+    width: 350px;
+    height: 330px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.image-container figcaption {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    border-left: 7px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+/*Contact*/
+
+.contact-info {
+    text-align: center;
+    color: seashell;
+    height: 200px;
+    margin: 80px auto;
+}
+
+.contact-info h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    color: seashell;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: seashell;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5;
+}
+
+.contact-info a:hover {
+    color: purple;
+    transition-duration: 1s;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    border-top: 2px solid seashell;
+    height: 65px;
+    opacity: 0.9;
+}
+
+footer .credits {
+    text-align: right;
+    color: seashell;
+    margin-right: 2%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+footer .credits p a {
+    text-decoration: none;
+    color: seashell
+}
+
+footer .credits p a:hover {
+    transition-duration: 2s;
+    color: purple;
+}
